@@ -1,0 +1,242 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<title>Activities</title>
+	<link rel="icon" href="logo_compass.jpg" type="image/jpg">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		.topnav {
+				  background-color: black;
+				  overflow: hidden;
+		}
+
+
+		.topnav a {
+		  float: right;
+		  color: #f2f2f2;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		  font-size: 17px;
+		}
+
+
+		.topnav a:hover {
+		  background-color: gold;
+		  color: black;
+		}
+
+		.topnav a.active {
+		  background-color: gold;
+		  color: white;
+		}
+		
+		* {box-sizing: border-box;}
+		body {font-family: Verdana, sans-serif;}
+		.mySlides {display: none;}
+		img {vertical-align: middle;}
+		
+		table, th, td {
+		  border: 1px solid black;
+		  border-collapse: collapse;
+		  border-spacing: 20px;
+		}
+		th, td {
+		  padding: 10px;
+		}
+		
+		* {
+		  box-sizing: border-box;
+		}
+
+		body {
+		  margin: 0;
+		  font-family: Arial, Helvetica, sans-serif;
+		}
+
+		.header {
+		  text-align: center;
+		  padding: 32px;
+		}
+
+		.row {
+		  display: -ms-flexbox; /* IE 10 */
+		  display: flex;
+		  -ms-flex-wrap: wrap; /* IE 10 */
+		  flex-wrap: wrap;
+		  padding: 0 4px;
+		}
+
+		/* Create two equal columns that sits next to each other */
+		.column {
+		  -ms-flex: 50%; /* IE 10 */
+		  flex: 50%;
+		  padding: 0 4px;
+		}
+
+		.column img {
+		  margin-top: 8px;
+		  vertical-align: middle;
+		}
+
+		/* Style the buttons */
+		.btn {
+		  border: none;
+		  outline: none;
+		  padding: 10px 16px;
+		  background-color: #f1f1f1;
+		  cursor: pointer;
+		  font-size: 18px;
+		}
+
+		.btn:hover {
+		  background-color: #ddd;
+		}
+
+		.btn.active {
+		  background-color: #666;
+		  color: white;
+		}
+	</style>
+	
+</head>
+
+<body style="background-color:black">
+	<div class="topnav">
+		  <img src="logo_compass.jpg" style="width:65px">
+		  <img src="logo_uitm.jpg" style="width:110px">
+		  <a href="feedback.html">Feedback</a>
+		  <a class="active" href="#activities" target="_self">Activities</a>
+		  <a href="organisational_chart.html">Organizational Chart</a>
+		  <a href="aboutus.html">About Us</a>
+		  <a href="index.html">Home</a>
+	</div>
+	
+	
+	<font color="white"><h2 align="center">COMPASS Activities</h2></font>
+	
+	<table>
+		<tr>
+			<td>
+				<video width="420" height="315" controls="true"
+					src="aktivitiLepas.mp4" type="video/mp4">
+				</video>
+				<font color="white"><p align="center">Past Semester Activities</p></font>
+			</td>
+			<td>
+				<video width="420" height="315" controls="true"
+					src="IntroExco.mp4" type="video/mp4">
+				</video>
+				<font color="white"><p align="center">Introduction Exco COMPASS</p></font>
+			</td>
+			<td>
+				<video width="420" height="315" controls="true"
+					src="thisSem.mp4" type="video/mp4">
+				</video>
+				<font color="white"><p align="center">This Semester Activities</p></font>
+			</td>
+		</tr>
+	</table>
+	
+	<br><br>
+	
+	<!-- Header -->
+	<div class="header" id="myHeader">
+	  <font color="white"<h1>Pictures Of Activities</h1></font>
+	  <font color="white"><p>Click on the buttons to change the grid view.</p></font>
+	  <button class="btn" onclick="one()">1</button>
+	  <button class="btn active" onclick="two()">2</button>
+	  <button class="btn" onclick="three()">3</button>
+	</div>
+
+	<!-- Photo Grid -->
+	<div class="row"> 
+	  <div class="column">
+		<img src="images2/mg1.jpg" style="width:100%">
+		<img src="images2/ds1(1).jpg" style="width:100%">
+		<img src="images2/dinner1.jpg" style="width:100%">
+		<img src="images2/mg2.jpg" style="width:100%">
+		<img src="images2/ds1(2).jpg" style="width:100%">
+		<img src="images2/dinner2.jpg" style="width:100%">
+		<img src="images2/mg3.jpg" style="width:100%">
+	  </div>
+	  <div class="column">
+		<img src="images2/ds1(3).jpg" style="width:100%">
+		<img src="images2/dinner3.jpg" style="width:100%">
+		<img src="images2/mg4.jpg" style="width:100%">
+		<img src="images2/ds1(4).jpg" style="width:100%">
+		<img src="images2/dinner4.jpg" style="width:100%">
+		<img src="images2/mg5.jpg" style="width:100%">
+		<img src="images2/dinner8.jpg" style="width:100%">
+	  </div>  
+	  <div class="column">
+		<img src="images2/ds1(5).jpg" style="width:100%">
+		<img src="images2/dinner5.jpg" style="width:100%">
+		<img src="images2/mg6.jpg" style="width:100%">
+		<img src="images2/ds1(6).jpg" style="width:100%">
+		<img src="images2/dinner6.jpg" style="width:100%">
+		<img src="images2/mg7.jpg" style="width:100%">
+		<img src="images2/ds1(7).jpg" style="width:100%">
+	  </div>
+	  <div class="column">
+		<img src="images2/dinner7.jpg" style="width:100%">
+		<img src="images2/mg8.jpg" style="width:100%">
+		<img src="images2/ds1(8).jpg" style="width:100%">
+		<img src="images2/mg9.jpg" style="width:100%">
+		<img src="images2/mg10.jpg" style="width:100%">
+		<img src="images2/mg11.jpg" style="width:100%">
+		<img src="images2/dinner9.jpg" style="width:100%">
+	  </div>
+	</div>
+
+	<script>
+	// Get the elements with class="column"
+	var elements = document.getElementsByClassName("column");
+
+	// Declare a loop variable
+	var i;
+
+	// Full-width images
+	function one() {
+		for (i = 0; i < elements.length; i++) {
+		elements[i].style.msFlex = "100%";  // IE10
+		elements[i].style.flex = "100%";
+	  }
+	}
+
+	// Two images side by side
+	function two() {
+	  for (i = 0; i < elements.length; i++) {
+		elements[i].style.msFlex = "50%";  // IE10
+		elements[i].style.flex = "50%";
+	  }
+	}
+
+	// Four images side by side
+	function three() {
+	  for (i = 0; i < elements.length; i++) {
+		elements[i].style.msFlex = "25%";  // IE10
+		elements[i].style.flex = "25%";
+	  }
+	}
+
+	// Add active class to the current button (highlight it)
+	var header = document.getElementById("myHeader");
+	var btns = header.getElementsByClassName("btn");
+	for (var i = 0; i < btns.length; i++) {
+	  btns[i].addEventListener("click", function() {
+		var current = document.getElementsByClassName("active");
+		current[0].className = current[0].className.replace(" active", "");
+		this.className += " active";
+	  });
+	}
+	</script>
+	<br><br>
+	<footer align="center">
+        <font color="white"><small>&copy; Copyright 2019, COMPASS Johor</small></font>
+	</footer>
+</body>
+
+</html>
